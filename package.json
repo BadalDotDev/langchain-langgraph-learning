@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "chapter-1": "node scripts/run-chapter.mjs 01-chat-models",
-    "chapter-2": "node scripts/run-chapter.mjs 02-prompts"
+    "chapter-2": "node scripts/run-chapter.mjs 02-prompts",
+    "chapter-3": "node scripts/run-chapter.mjs 03-lcel"
   },
   "keywords": [],
   "author": "",

@@ -8,7 +8,8 @@
     "chapter-2": "node scripts/run-chapter.mjs 02-prompts",
     "chapter-3": "node scripts/run-chapter.mjs 03-lcel",
     "chapter-4": "node scripts/run-chapter.mjs 04-output-parsers",
-    "chapter-5": "node scripts/run-chapter.mjs 05-embeddings"
+    "chapter-5": "node scripts/run-chapter.mjs 05-embeddings",
+    "chapter-6": "node scripts/run-chapter.mjs 06-vector-db"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@langchain/community": "^1.1.27",
     "@langchain/core": "^1.1.44",
     "@langchain/groq": "^1.2.0",
+    "chromadb": "^3.4.3",
     "dotenv": "^17.4.2",
     "zod": "^4.4.2"
   },

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "chapter-1": "tsx 01-chat-models"
+    "chapter-1": "node scripts/run-chapter.mjs 01-chat-models"
   },
   "keywords": [],
   "author": "",

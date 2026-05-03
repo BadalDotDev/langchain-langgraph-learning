@@ -24,6 +24,12 @@ Messages → Chat Model → Response
 └── temperature.ts
 ```
 
+> Run examples from the project root using:
+>
+> ```bash
+> npm run chapter-1 -- filename.ts
+> ```
+
 ---
 
 # 1. What is a Chat Model?
@@ -76,29 +82,7 @@ This standardization is HUGE.
 
 ---
 
-# 3. Install Packages
-
-```bash
-npm install
-```
-
----
-
-# 4. Get Groq API Key
-
-Create:
-
-```text
-.env
-```
-
-```env
-GROQ_API_KEY=your_key_here
-```
-
----
-
-# 5. Your First Chat Model
+# 3. Your First Chat Model
 
 File:
 
@@ -128,12 +112,12 @@ main();
 Run:
 
 ```bash
-npx tsx basic.ts
+npm run chapter-1 -- basic.ts
 ```
 
 ---
 
-# 6. Understanding `invoke()`
+# 4. Understanding `invoke()`
 
 This is the MOST IMPORTANT method.
 
@@ -145,7 +129,7 @@ It sends input to the model and returns output.
 
 ---
 
-# 7. What Does Response Contain?
+# 5. What Does Response Contain?
 
 The response is NOT just text.
 
@@ -166,7 +150,7 @@ console.log(response.content);
 
 ---
 
-# 8. Message Types
+# 6. Message Types
 
 Modern chat models use messages.
 
@@ -181,7 +165,7 @@ Main types:
 
 ---
 
-# 9. Real Message-Based Example
+# 7. Real Message-Based Example
 
 File:
 
@@ -214,7 +198,7 @@ main();
 
 ---
 
-# 10. System Messages (VERY IMPORTANT)
+# 8. System Messages (VERY IMPORTANT)
 
 System messages control model behavior.
 
@@ -235,7 +219,7 @@ This becomes critical later for:
 
 ---
 
-# 11. Temperature
+# 9. Temperature
 
 Controls randomness.
 
@@ -257,7 +241,7 @@ Recommended:
 
 ---
 
-# 12. Temperature Example
+# 10. Temperature Example
 
 File:
 
@@ -288,7 +272,7 @@ main();
 
 ---
 
-# 13. Model Selection
+# 11. Model Selection
 
 Recommended free Groq models:
 
@@ -301,7 +285,7 @@ Recommended free Groq models:
 
 ---
 
-# 14. Streaming (VERY IMPORTANT)
+# 12. Streaming (VERY IMPORTANT)
 
 Instead of waiting for the full response:
 
@@ -315,7 +299,7 @@ we can stream tokens live.
 
 ---
 
-# 15. Streaming Example
+# 13. Streaming Example
 
 File:
 
@@ -345,7 +329,7 @@ main();
 
 ---
 
-# 16. Why Streaming Matters
+# 14. Why Streaming Matters
 
 Streaming is ESSENTIAL for:
 
@@ -362,7 +346,7 @@ Without streaming:
 
 ---
 
-# 17. Async Iteration
+# 15. Async Iteration
 
 This syntax:
 
@@ -376,7 +360,7 @@ You’ll use this A LOT in AI engineering.
 
 ---
 
-# 18. Streaming Chat Example
+# 16. Streaming Chat Example
 
 File:
 
@@ -428,7 +412,7 @@ main();
 
 ---
 
-# 19. Token Usage & Metadata
+# 17. Token Usage & Metadata
 
 File:
 
@@ -468,7 +452,7 @@ Useful for:
 
 ---
 
-# 20. Batch Processing
+# 18. Batch Processing
 
 File:
 
@@ -509,7 +493,7 @@ Useful for:
 
 ---
 
-# 21. AI Coach Exercise
+# 19. AI Coach Exercise
 
 File:
 
@@ -543,7 +527,7 @@ main();
 
 ---
 
-# 22. Important Chat Model Methods
+# 20. Important Chat Model Methods
 
 | Method                 | Purpose         |
 | ---------------------- | --------------- |
@@ -555,7 +539,7 @@ main();
 
 ---
 
-# 23. Modern Mental Model
+# 21. Modern Mental Model
 
 Modern AI apps are basically:
 
@@ -571,7 +555,7 @@ Everything builds on this.
 
 ---
 
-# 24. Important Architecture Insight
+# 22. Important Architecture Insight
 
 Old tutorials focus on:
 
@@ -585,7 +569,7 @@ This is a HUGE conceptual shift.
 
 ---
 
-# 25. Recommended Exercises
+# 23. Recommended Exercises
 
 Do these before moving ahead.
 
@@ -636,7 +620,7 @@ Print:
 
 ---
 
-# 26. Key Takeaways
+# 24. Key Takeaways
 
 By now you should understand:
 

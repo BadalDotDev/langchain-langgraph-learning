@@ -6,7 +6,8 @@
   "scripts": {
     "chapter-1": "node scripts/run-chapter.mjs 01-chat-models",
     "chapter-2": "node scripts/run-chapter.mjs 02-prompts",
-    "chapter-3": "node scripts/run-chapter.mjs 03-lcel"
+    "chapter-3": "node scripts/run-chapter.mjs 03-lcel",
+    "chapter-4": "node scripts/run-chapter.mjs 04-output-parsers"
   },
   "keywords": [],
   "author": "",

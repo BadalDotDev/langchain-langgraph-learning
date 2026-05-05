@@ -10,7 +10,8 @@
     "chapter-4": "node scripts/run-chapter.mjs 04-output-parsers",
     "chapter-5": "node scripts/run-chapter.mjs 05-embeddings",
     "chapter-6": "node scripts/run-chapter.mjs 06-vector-db",
-    "chapter-7": "node scripts/run-chapter.mjs 07-rag"
+    "chapter-7": "node scripts/run-chapter.mjs 07-rag",
+    "chapter-8": "node scripts/run-chapter.mjs 08-tools"
   },
   "keywords": [],
   "author": "",
